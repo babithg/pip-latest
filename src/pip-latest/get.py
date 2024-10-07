@@ -1,7 +1,7 @@
 import subprocess
 import sys
 
-def upgrade_pip():
+def update_to_update():
     """Upgrade pip to the latest version."""
     try:
         # Run the command to upgrade pip
@@ -13,7 +13,7 @@ def upgrade_pip():
         sys.exit(1)
 
 def main():
-    upgrade_pip()
+    update_to_update()
 
 if __name__ == "__main__":
     main()
