@@ -1,12 +1,61 @@
-# Pip Latest
+# pip-latest
 
-Idea of this pcakge is to update pip to latest version
+A simple CLI tool to upgrade pip to its latest version or check if an update is available.
 
-You may have to follow below steps
-> pip install pip-latest ;
-> python -m pip-latest.get
+---
 
-Its just replacement of the lengthy command
-python -m pip install --upgrade pip
+## Installation
 
-[GitHub-repo-link](https://github.com/babithg/pip-latest.git)
+Install from [PyPI](https://pypi.org/project/pip_latest/):
+
+```bash
+pip install pip_latest
+```
+
+---
+
+## Source Code
+
+Available on GitHub: [https://github.com/babithg/pip-latest](https://github.com/babithg/pip-latest)
+
+---
+
+## Usage
+
+### Upgrade pip to the latest version
+
+```bash
+pip-latest get
+```
+
+Upgrades pip and prints the new version on success.
+
+### Check if a newer version is available
+
+```bash
+pip-latest check
+```
+
+Compares your currently installed pip version against the latest release on PyPI and tells you if an update is available.
+
+### Show help
+
+```bash
+pip-latest help
+```
+
+---
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `get`   | Upgrade pip to the latest version |
+| `check` | Check if a newer version of pip is available |
+| `help`  | Show usage help |
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details.

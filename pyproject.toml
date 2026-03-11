@@ -17,6 +17,12 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[project.scripts]
+pip-latest = "pip_latest.get:main"
+
 [project.urls]
 Homepage = "https://github.com/babithg/pip-latest"
 Issues = "https://github.com/babithg/pip-latest/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
