@@ -9,7 +9,7 @@ A simple CLI tool to upgrade pip to its latest version or check if an update is 
 Install from [PyPI](https://pypi.org/project/pip_latest/):
 
 ```bash
-pip install pip_latest
+pip install pip-latest
 ```
 
 ---
